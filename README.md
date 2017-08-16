@@ -1,4 +1,4 @@
-<img src="https://devmounta.in/img/logowhiteblue.png" width="250" align="right">
+<!-- <img src="https://devmounta.in/img/logowhiteblue.png" width="250" align="right">
 
 Personal API
 ============
@@ -150,8 +150,8 @@ var main_ctrl = require('./controllers/main_ctrl.js');
 #### Step 4: Add ordering to your API
 For the occupations endpoint with the get method that we just wrote, let's have a way for the client to get a specific ordering, alphabetized or reverse alphabetized.
 * Make it so when the client requests occupations with a order query parameter, return an alphabetized list for the query `order=desc` and a reverse alphabetized list for the query `order=asc` (if your occupations endpoints are arrays of strings, you can simply use the Javascript `.sort()` and `.reverse()` methods of an array to do your sorting).
-* This endpoint needs to work with or without an order query. So you will need to use an if statement (or a switch statement) to check the value/existence of `req.query.order`. 
-
+* This endpoint needs to work with or without an order query. So you will need to use an if statement (or a switch statement) to check the value/existence of `req.query.order`.  -->
+<!-- 
 #### Step 5: Make writable endpoints
 Now you're going to make some endpoints that can be added to or modified by `POST` or `PUT` requests. Make sure that in addition to sending the new/updated information, you also modify your user object so that future `GET` requests will reflect your changes.
 
@@ -194,7 +194,7 @@ This endpoint is going to be a bit more complicated than those you've made previ
 
 `GET /skills?experience=Intermediate`
 
-- Like in step 4, use an if statement (or a ternary operator) to determine the existence of `req.query.experience` and then use .filter to get the skills that match the criteria.
+- Like in step 4, use an if statement (or a ternary operator) to determine the existence of `req.query.experience` and then use .filter to get the skills that match the criteria. -->
 
 ###### `POST /skills`
 - Add a skill to the collection of skills. For this endpoint we need to create a function that will dynamically create IDs for us based on the length of our skills array. For example: 
